@@ -1,0 +1,16 @@
+
+.checking{
+    color: #000;
+}
+.primary-btn {
+    width: 100px;
+    border-radius: 3px;
+    height: 40px;
+    background-color: var(--app-light-orange);
+    color: #fff;
+  }
+  .primary-btn:hover {
+    border: 2px solid var(--app-light-orange);
+    color: var(--app-light-orange);
+    background-color: #fff;
+  }

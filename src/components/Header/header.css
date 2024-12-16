@@ -1,0 +1,81 @@
+@charset "UTF-8";
+:root {
+  --app-dark-bg: #1a1d28;
+  --app-red: #ff3c57;
+  --app-green: #33ab4e;
+  --app-purple: #833cff;
+  --app-orange: #ff833c;
+  --app-blue: #3c57ff;
+  --app-blue-hover: #364ee6;
+  --app-light-orange: #fe9505;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* ------------------- */
+/*   Header            */
+/* ------------------- */
+
+header {
+  height: 56px;
+  background-color: #199696;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.title {
+  width: 40%;
+  height: 56%;
+}
+
+.title h1 {
+  display: flex;
+  font-size: 18px;
+  font-weight: 550;
+  line-height: 56px;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  letter-spacing: 0.2px;
+}
+
+nav {
+  width: 60%;
+  text-align: right;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  line-height: 56px;
+  cursor: default;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+}
+
+nav ul li a {
+  font-size: 17px;
+  color: #000;
+  font-weight: 525;
+  text-decoration: none;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  font-family: Madefor, Helvetica Neue, Helvetica, Arial,
+    Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+nav ul li + li {
+  margin-left: 18px;
+}
