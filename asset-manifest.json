@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Chamanbawa/Time-Teller.git/static/css/main.c4168886.css",
-    "main.js": "/Chamanbawa/Time-Teller.git/static/js/main.dcfed81b.js",
-    "index.html": "/Chamanbawa/Time-Teller.git/index.html",
-    "main.c4168886.css.map": "/Chamanbawa/Time-Teller.git/static/css/main.c4168886.css.map",
-    "main.dcfed81b.js.map": "/Chamanbawa/Time-Teller.git/static/js/main.dcfed81b.js.map"
+    "main.css": "/Time-Teller/static/css/main.c4168886.css",
+    "main.js": "/Time-Teller/static/js/main.dcfed81b.js",
+    "index.html": "/Time-Teller/index.html",
+    "main.c4168886.css.map": "/Time-Teller/static/css/main.c4168886.css.map",
+    "main.dcfed81b.js.map": "/Time-Teller/static/js/main.dcfed81b.js.map"
   },
   "entrypoints": [
     "static/css/main.c4168886.css",
